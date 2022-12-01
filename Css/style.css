@@ -23,8 +23,25 @@
 }
 
 #main #introducao {
-  background-image: url(../../img/bg-hero.jpg);
+  background: black url(../img/bg-hero.jpg) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   height: 90.05vh;
+}
+#main #div-icones {
+  background-color: rgb(0, 0, 0);
+  color: #BDC2CB;
+  font-weight: 600;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  height: 37vh;
+}
+#main #jornada {
+  background-color: beige;
+  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */
