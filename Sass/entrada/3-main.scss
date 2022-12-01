@@ -1,10 +1,11 @@
 #main {
     #introducao {
-        font-size: 1.4em;
+        font-size: 1.2em;
         background: black url(../img/bg-hero.jpg) center center no-repeat;
         background-size: cover;
         background-attachment: fixed;
         color: white;
+        display: flex;
         padding: 15px;
         height: 90.05vh;
 
@@ -12,7 +13,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            width: 60%;
+            width: 65%;
             height: 100%;
 
             #title {
@@ -40,12 +41,41 @@
             #buttonComprar {
                 background-color: #3265EA;
                 color: white;
+                cursor: pointer;
                 font-weight: bold;
                 font-size: 1em;
                 border: none;
                 height: 50px;
                 width: 60%;
             }
+        }
+    
+
+        #direita {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            #gif {
+                border: solid 3px blue;
+                border-radius: 3px;
+                margin: 10px 0px;
+                width: 350px;
+            }
+
+            #faixa-etaria {
+                display: flex;
+                margin-top: 25px;
+
+                #faixa-etaria {
+                    width: 37px;
+                }
+
+                #text-faixa-etaria {
+                    display: inline;
+                    font-size: .8em;
+                }
+            }   
         }
     }
 

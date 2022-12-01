@@ -23,11 +23,12 @@
 }
 
 #main #introducao {
-  font-size: 1.4em;
+  font-size: 1.2em;
   background: black url(../img/bg-hero.jpg) center center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   color: white;
+  display: flex;
   padding: 15px;
   height: 90.05vh;
 }
@@ -35,7 +36,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 60%;
+  width: 65%;
   height: 100%;
 }
 #main #introducao #esquerda #title {
@@ -62,11 +63,34 @@
 #main #introducao #esquerda #buttonComprar {
   background-color: #3265EA;
   color: white;
+  cursor: pointer;
   font-weight: bold;
   font-size: 1em;
   border: none;
   height: 50px;
   width: 60%;
+}
+#main #introducao #direita {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#main #introducao #direita #gif {
+  border: solid 3px blue;
+  border-radius: 3px;
+  margin: 10px 0px;
+  width: 350px;
+}
+#main #introducao #direita #faixa-etaria {
+  display: flex;
+  margin-top: 25px;
+}
+#main #introducao #direita #faixa-etaria #faixa-etaria {
+  width: 37px;
+}
+#main #introducao #direita #faixa-etaria #text-faixa-etaria {
+  display: inline;
+  font-size: 0.8em;
 }
 #main #div-icones {
   background-color: rgb(0, 0, 0);
