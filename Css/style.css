@@ -1,0 +1,30 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 60px;
+}
+#header #logo {
+  height: 45px;
+}
+#header .disponiveis {
+  border: solid 1.1px white;
+  padding: 3px 6px;
+  margin: 0px 3px;
+}
+
+#main #introducao {
+  background-image: url(../../img/bg-hero.jpg);
+  height: 90.05vh;
+}
+
+/*# sourceMappingURL=style.css.map */

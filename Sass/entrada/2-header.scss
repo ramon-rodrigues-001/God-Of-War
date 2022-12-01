@@ -1,0 +1,18 @@
+#header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 60px;
+
+    #logo {
+        height: 45px;
+    }
+
+    .disponiveis {
+        border: solid 1.1px white;
+        padding: 3px 6px;
+        margin: 0px 3px;
+    }
+}
