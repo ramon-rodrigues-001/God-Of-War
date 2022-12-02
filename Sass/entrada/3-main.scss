@@ -178,7 +178,18 @@
 
 
 @media screen and (min-width: 1300px) {
-    main {
+    #main {
+        #introducao {
+            font-size: 1.3em;
+
+            #direita {
+                #gif {
+                    width: 430px;
+                    height: 250px;
+                }
+            }
+        }
+
         #jornada {
             display: flex;
             align-items: center;
@@ -285,6 +296,62 @@
                     margin: auto;
                 }
             }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+    #main {
+        #introducao {
+            #esquerda {
+                #title {
+                    font-size: 2.8em;
+                }
+            }
+        }
+        .title-h2 {
+            font-size: 2em;
+        }
+    } 
+}
+
+
+@media screen and (max-width: 550px) {
+    #main {
+        font-size: .9em;
+        #introducao {
+            #esquerda {
+                #title {
+                    font-size: 2.4em;
+                }
+
+                #comprar {
+                    font-size: .75em;
+                    width: 250px;
+                }
+            }
+
+            #direita {
+                #gif {
+                    width: 270px;
+                    height: 170px;
+                }
+            }
+        }
+
+        #jornada {
+            #kratosAtheus {
+                width: 280px;
+                height: 300px;
+            }
+        }
+
+        #machado {
+            width: 270px;
+            height: 270px;
         }
     }
 }

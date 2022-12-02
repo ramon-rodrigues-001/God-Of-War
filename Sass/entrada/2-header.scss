@@ -13,8 +13,23 @@
     }
 
     .disponiveis {
+        display: inline-block;
         border: solid 1.1px white;
         padding: 3px 6px;
-        margin: 0px 3px;
+        margin: 3px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    #header {
+        #logo {
+            height: 55px;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #icon-sony {
+        display: none;
     }
 }

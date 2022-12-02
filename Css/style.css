@@ -49,11 +49,22 @@ section {
   height: 45px;
 }
 #header .disponiveis {
+  display: inline-block;
   border: solid 1.1px white;
   padding: 3px 6px;
-  margin: 0px 3px;
+  margin: 3px;
 }
 
+@media screen and (min-width: 1300px) {
+  #header #logo {
+    height: 55px;
+  }
+}
+@media screen and (max-width: 700px) {
+  #icon-sony {
+    display: none;
+  }
+}
 #main #introducao {
   font-size: 1.2em;
   background: black url(../img/bg-hero.jpg) center center no-repeat;
@@ -202,12 +213,19 @@ section {
 }
 
 @media screen and (min-width: 1300px) {
-  main #jornada {
+  #main #introducao {
+    font-size: 1.3em;
+  }
+  #main #introducao #direita #gif {
+    width: 430px;
+    height: 250px;
+  }
+  #main #jornada {
     display: flex;
     align-items: center;
     min-height: auto;
   }
-  main #jornada #kratosAtheus {
+  #main #jornada #kratosAtheus {
     height: 500px;
   }
 }
@@ -278,6 +296,38 @@ section {
   }
   #main #personagens #aventura #direita {
     margin: auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  #main #introducao #esquerda #title {
+    font-size: 2.8em;
+  }
+  #main .title-h2 {
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 550px) {
+  #main {
+    font-size: 0.9em;
+  }
+  #main #introducao #esquerda #title {
+    font-size: 2.4em;
+  }
+  #main #introducao #esquerda #comprar {
+    font-size: 0.75em;
+    width: 250px;
+  }
+  #main #introducao #direita #gif {
+    width: 270px;
+    height: 170px;
+  }
+  #main #jornada #kratosAtheus {
+    width: 280px;
+    height: 300px;
+  }
+  #main #machado {
+    width: 270px;
+    height: 270px;
   }
 }
 
