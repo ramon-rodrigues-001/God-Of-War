@@ -103,20 +103,13 @@
         padding: 50px 20px;
         min-height: 100vh;
 
-        #destaque {
+        .destaque {
             justify-content: center;
         }
 
-        #title-jornada {
-            font-size: 2.5em;
-            padding: 20px 10px;
+        .title-h2 {
             margin: auto;
             max-width: 900px;
-        }
-        #text-jornada {
-            color: #BDC2CB;
-            line-height: 1.5em;
-            padding: 10px;
         }
 
         #santa-Monica {
@@ -139,49 +132,31 @@
 
 
     #personagens {
-        background: black url(../img/bg-characters.png) center center no-repeat;
+        background: black url(../img/bg-characters.png) center center repeat;
         background-size: cover;
         color: white;
-        display: flex;
         font-size: 1.2em;
-        padding: 20px;
-        min-height: 100vh;
 
-        #esquerda  {
-            width: 55%;
-
-            #title-jornada {
-                font-size: 2.5em;
-                padding: 20px 0px;
-            }
-
-            #text-jornada {
-                color: #BDC2CB;
-                line-height: 1.5em;
-                padding: 10px;
-            }
-        }
-
-        #direita {
+        #aventura { 
             display: flex;
+            padding: 20px;
+            min-height: 100vh;
 
-            #machado {
-                height: 450px;
+            #esquerda  {
+                width: 55%;               
             }
 
-            #logo-detalhe {
-                width: 150px;
-            } 
+            #direita {
+                display: flex;
+
+                #machado {
+                    height: 450px;
+                }
+
+                #logo-detalhe {
+                    width: 150px;
+                } 
+            }
         }
-    }
-}
-
-
-
-#destaque {
-    display: flex;
-
-    #text-destaque {
-        padding: 10px;
     }
 }

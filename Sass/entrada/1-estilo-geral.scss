@@ -4,3 +4,40 @@
     margin: 0;
     padding: 0;
 }
+
+
+#container {
+    background-color: black;
+    color: white;
+}
+
+section {
+    justify-content: center;
+    max-width: 1700px;
+    margin: auto;
+}
+
+// Paragrafos com simbolos azuis antes
+.destaque {
+    display: flex;
+
+    .text-destaque {
+        padding: 10px;
+    }
+}
+
+
+// Titulos h2
+.title-h2 {
+    font-size: 2.5em;
+    padding: 20px 0px;
+    max-width: 700px;
+}
+
+
+// Paragrafos de textos com line-height
+.text {
+    color: #BDC2CB;
+    line-height: 1.5em;
+    padding: 10px;
+}

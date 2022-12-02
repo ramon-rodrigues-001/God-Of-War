@@ -5,6 +5,36 @@
   padding: 0;
 }
 
+#container {
+  background-color: black;
+  color: white;
+}
+
+section {
+  justify-content: center;
+  max-width: 1700px;
+  margin: auto;
+}
+
+.destaque {
+  display: flex;
+}
+.destaque .text-destaque {
+  padding: 10px;
+}
+
+.title-h2 {
+  font-size: 2.5em;
+  padding: 20px 0px;
+  max-width: 700px;
+}
+
+.text {
+  color: #BDC2CB;
+  line-height: 1.5em;
+  padding: 10px;
+}
+
 #header {
   background-color: black;
   color: white;
@@ -12,6 +42,8 @@
   justify-content: space-around;
   align-items: center;
   min-height: 60px;
+  max-width: 1700px;
+  margin: auto;
 }
 #header #logo {
   height: 45px;
@@ -111,19 +143,12 @@
   padding: 50px 20px;
   min-height: 100vh;
 }
-#main #jornada #destaque {
+#main #jornada .destaque {
   justify-content: center;
 }
-#main #jornada #title-jornada {
-  font-size: 2.5em;
-  padding: 20px 10px;
+#main #jornada .title-h2 {
   margin: auto;
   max-width: 900px;
-}
-#main #jornada #text-jornada {
-  color: #BDC2CB;
-  line-height: 1.5em;
-  padding: 10px;
 }
 #main #jornada #santa-Monica {
   color: #BDC2CB;
@@ -140,41 +165,27 @@
   align-items: center;
 }
 #main #personagens {
-  background: black url(../img/bg-characters.png) center center no-repeat;
+  background: black url(../img/bg-characters.png) center center repeat;
   background-size: cover;
   color: white;
-  display: flex;
   font-size: 1.2em;
+}
+#main #personagens #aventura {
+  display: flex;
   padding: 20px;
   min-height: 100vh;
 }
-#main #personagens #esquerda {
+#main #personagens #aventura #esquerda {
   width: 55%;
 }
-#main #personagens #esquerda #title-jornada {
-  font-size: 2.5em;
-  padding: 20px 0px;
-}
-#main #personagens #esquerda #text-jornada {
-  color: #BDC2CB;
-  line-height: 1.5em;
-  padding: 10px;
-}
-#main #personagens #direita {
+#main #personagens #aventura #direita {
   display: flex;
 }
-#main #personagens #direita #machado {
+#main #personagens #aventura #direita #machado {
   height: 450px;
 }
-#main #personagens #direita #logo-detalhe {
+#main #personagens #aventura #direita #logo-detalhe {
   width: 150px;
-}
-
-#destaque {
-  display: flex;
-}
-#destaque #text-destaque {
-  padding: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
