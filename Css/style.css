@@ -61,14 +61,14 @@ section {
   background-attachment: fixed;
   color: white;
   display: flex;
-  padding: 15px;
-  height: 90.05vh;
+  align-items: center;
+  padding: 20px;
+  min-height: 90.05vh;
 }
 #main #introducao #esquerda {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 68%;
+  width: 67%;
   height: 100%;
 }
 #main #introducao #esquerda #title {
@@ -108,10 +108,19 @@ section {
   justify-content: center;
 }
 #main #introducao #direita #gif {
+  background: url(../img/gif-thor.gif) center center no-repeat;
+  background-size: 100% 100%;
+  position: relative;
   border: solid 3px blue;
-  border-radius: 3px;
+  border-radius: 4px;
   margin: 10px 0px;
   width: 350px;
+  height: 200px;
+}
+#main #introducao #direita #gif #play {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
 }
 #main #introducao #direita #faixa-etaria {
   display: flex;
@@ -140,7 +149,7 @@ section {
   background-color: rgb(0, 0, 0);
   color: white;
   text-align: center;
-  padding: 50px 20px;
+  padding: 40px 20px;
   min-height: 100vh;
 }
 #main #jornada .destaque {
@@ -164,6 +173,10 @@ section {
   padding: 0px 20px;
   align-items: center;
 }
+#main #jornada #kratosAtheus {
+  height: 600px;
+  margin: auto;
+}
 #main #personagens {
   background: black url(../img/bg-characters.png) center center repeat;
   background-size: cover;
@@ -186,6 +199,86 @@ section {
 }
 #main #personagens #aventura #direita #logo-detalhe {
   width: 150px;
+}
+
+@media screen and (min-width: 1300px) {
+  main #jornada {
+    display: flex;
+    align-items: center;
+    min-height: auto;
+  }
+  main #jornada #kratosAtheus {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  main #detalhe-de-lancamento {
+    display: none;
+  }
+}
+@media screen and (max-width: 970px) {
+  #main #introducao {
+    display: block;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  #main #introducao #esquerda {
+    display: block;
+    margin: auto;
+  }
+  #main #introducao #esquerda .destaque {
+    display: block;
+  }
+  #main #introducao #esquerda .destaque p {
+    display: inline;
+  }
+  #main #introducao #esquerda #comprar {
+    font-size: 0.8 0.5em;
+    width: 400px;
+    margin: 20px auto;
+  }
+  #main #introducao #direita {
+    text-align: center;
+    display: block;
+  }
+  #main #introducao #direita #gif {
+    margin: 20px auto;
+  }
+  #main #introducao #direita #faixa-etaria {
+    display: block;
+  }
+  #main #introducao #direita #faixa-etaria #text-faixa-etaria {
+    display: block;
+    font-size: 0.9em;
+    margin: auto;
+    width: 250px;
+  }
+  #main #jornada #kratosAtheus {
+    height: 400px;
+  }
+  #main #personagens {
+    text-align: center;
+  }
+  #main #personagens #aventura {
+    flex-direction: column;
+    text-align: center;
+  }
+  #main #personagens #aventura #esquerda {
+    width: 100%;
+  }
+  #main #personagens #aventura #esquerda .title-h2 {
+    min-width: 100%;
+  }
+  #main #personagens #aventura #esquerda .destaque {
+    display: block;
+    width: 100%;
+  }
+  #main #personagens #aventura #esquerda .destaque P {
+    display: inline;
+  }
+  #main #personagens #aventura #direita {
+    margin: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

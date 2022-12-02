@@ -6,14 +6,14 @@
         background-attachment: fixed;
         color: white;
         display: flex;
-        padding: 15px;
-        height: 90.05vh;
+        align-items: center;
+        padding: 20px;
+        min-height: 90.05vh;
 
         #esquerda {
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            width: 68%;
+            width: 67%;
             height: 100%;
 
             #title {
@@ -57,10 +57,20 @@
             justify-content: center;
 
             #gif {
+                background: url(../img/gif-thor.gif) center center no-repeat;
+                background-size: 100% 100%;
+                position: relative;
                 border: solid 3px blue;
-                border-radius: 3px;
+                border-radius: 4px;
                 margin: 10px 0px;
                 width: 350px;
+                height: 200px;
+
+                #play {
+                    position: absolute;
+                    bottom: 20px;
+                    left: 20px;
+                }
             }
 
             #faixa-etaria {
@@ -100,7 +110,7 @@
         background-color: rgb(0, 0, 0);
         color: white;
         text-align: center;
-        padding: 50px 20px;
+        padding: 40px 20px;
         min-height: 100vh;
 
         .destaque {
@@ -126,6 +136,11 @@
                 padding: 0px 20px;
                 align-items: center;
             }
+        }
+
+        #kratosAtheus {
+            height: 600px;
+            margin: auto;
         }
     }
 
@@ -156,6 +171,119 @@
                 #logo-detalhe {
                     width: 150px;
                 } 
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1300px) {
+    main {
+        #jornada {
+            display: flex;
+            align-items: center;
+            min-height: auto;
+
+            #kratosAtheus {
+                height: 500px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    main {
+        #detalhe-de-lancamento {
+            display: none;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 970px) {
+    #main {
+
+        #introducao {
+            display: block;
+            text-align: center;
+            padding: 20px 10px;
+
+            #esquerda {
+                display: block;
+                margin: auto;
+
+                .destaque {
+                    display: block;
+                    p {
+                        display: inline;
+                    }
+                }
+                #comprar {
+                    font-size: .8.5em;
+                    width: 400px;
+                    margin: 20px auto;
+                }
+            }
+
+            #direita {
+                text-align: center;
+                display: block;
+
+                #gif {
+                    margin: 20px auto;
+                }
+
+                #faixa-etaria {
+                    display: block;
+
+                    #text-faixa-etaria {
+                        display: block;
+                        font-size: .9em;
+                        margin: auto;
+                        width: 250px;
+                    }
+                }
+            }
+        }
+
+
+
+        #jornada {
+            #kratosAtheus {
+                height: 400px;
+            }
+        }
+
+
+
+        #personagens {
+            text-align: center;
+
+            #aventura {
+                flex-direction: column;
+                text-align: center;
+
+                #esquerda  {
+                    width: 100%;  
+
+                    .title-h2 {
+                        min-width: 100%;
+                    }
+
+                    .destaque {
+                        display: block;
+                        width: 100%;
+                        
+                        P {
+                            display: inline;
+                        }
+                    }
+                }
+
+                #direita {
+                    margin: auto;
+                }
             }
         }
     }
