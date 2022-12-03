@@ -101,6 +101,11 @@
         text-align: center;
         padding: 10px;
         height: 37vh;
+
+        div {
+            margin: auto;
+            max-width: 40%;
+        }
     }
 
 
@@ -369,9 +374,26 @@
             font-size: 1.7em;
         } 
 
-        #monica-studio {
-            width: 150px;
-            height: 60px;
+        #santa-Monica {
+            font-size: .8em;
+
+            #monica-studio {
+                width: 150px;
+                height: 45px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    #main {
+        #introducao {
+            #esquerda {
+                #title {
+                    font-size: 3.5em;
+                }
+            }
         }
     }
 }

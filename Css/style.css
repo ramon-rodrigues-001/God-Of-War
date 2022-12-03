@@ -156,6 +156,10 @@ section {
   padding: 10px;
   height: 37vh;
 }
+#main #div-icones div {
+  margin: auto;
+  max-width: 40%;
+}
 #main #jornada {
   font-size: 1.2em;
   background-color: rgb(0, 0, 0);
@@ -347,9 +351,17 @@ section {
   #main .title-h2 {
     font-size: 1.7em;
   }
-  #main #monica-studio {
+  #main #santa-Monica {
+    font-size: 0.8em;
+  }
+  #main #santa-Monica #monica-studio {
     width: 150px;
-    height: 60px;
+    height: 45px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #main #introducao #esquerda #title {
+    font-size: 3.5em;
   }
 }
 
