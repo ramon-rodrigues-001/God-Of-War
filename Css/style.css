@@ -66,175 +66,6 @@ section {
     display: none;
   }
 }
-#main #introducao {
-  font-size: 1.2em;
-  background: black url(../img/bg-hero.jpg) center center no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  color: rgb(255, 255, 255);
-  display: flex;
-  align-items: center;
-  padding: 20px 5px;
-  min-height: 90.05vh;
-}
-#main #introducao #esquerda {
-  display: flex;
-  flex-direction: column;
-  padding: 30px 5px;
-  width: 67%;
-  height: 100%;
-}
-#main #introducao #esquerda #title {
-  font-size: 5em;
-  padding: 10px 0px;
-}
-#main #introducao #esquerda #comprar {
-  display: flex;
-  align-items: center;
-  background-color: white;
-  margin: 20px 0px;
-  height: 50px;
-  width: 500px;
-}
-#main #introducao #esquerda #spanComprar {
-  text-align: center;
-  color: black;
-  font-weight: bold;
-  font-size: 1em;
-  display: inline-block;
-  padding: 15px;
-  width: 40%;
-}
-#main #introducao #esquerda #buttonComprar {
-  background-color: #3265EA;
-  color: white;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 1em;
-  border: none;
-  height: 50px;
-  width: 60%;
-}
-#main #introducao #direita {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-#main #introducao #direita #gif {
-  background: url(../img/gif-thor.gif) center center no-repeat;
-  background-size: 100% 100%;
-  position: relative;
-  border: solid 3px blue;
-  border-radius: 4px;
-  margin: 10px 0px;
-  width: 350px;
-  height: 200px;
-}
-#main #introducao #direita #gif #play {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-}
-#main #introducao #direita #faixa-etaria {
-  display: flex;
-  margin-top: 25px;
-}
-#main #introducao #direita #faixa-etaria #faixa-etaria {
-  width: 37px;
-}
-#main #introducao #direita #faixa-etaria #text-faixa-etaria {
-  display: inline;
-  font-size: 0.8em;
-}
-#main #div-icones {
-  background-color: rgb(0, 0, 0);
-  color: #BDC2CB;
-  font-weight: 600;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center;
-  text-align: center;
-  padding: 10px;
-  height: 37vh;
-}
-#main #div-icones div {
-  margin: auto;
-  width: 75%;
-}
-#main #jornada {
-  font-size: 1.2em;
-  background-color: rgb(0, 0, 0);
-  color: white;
-  text-align: center;
-  padding: 40px 20px;
-  min-height: 100vh;
-}
-#main #jornada .destaque {
-  justify-content: center;
-}
-#main #jornada .title-h2 {
-  margin: auto;
-  max-width: 900px;
-}
-#main #jornada #santa-Monica {
-  color: #BDC2CB;
-  display: flex;
-  gap: 10px;
-  font-size: 0.9em;
-  text-align: left;
-  margin: 50px auto 0px auto;
-  max-width: 570px;
-}
-#main #jornada #santa-Monica * {
-  display: flex;
-  gap: 15px;
-  align-items: center;
-}
-#main #jornada #kratosAtheus {
-  height: 600px;
-  margin: auto;
-}
-#main #personagens {
-  background: black url(../img/bg-characters.png) center center repeat;
-  background-size: cover;
-  color: white;
-  font-size: 1.2em;
-}
-#main #personagens #aventura {
-  display: flex;
-  padding: 20px;
-  min-height: 100vh;
-}
-#main #personagens #aventura #esquerda {
-  width: 55%;
-}
-#main #personagens #aventura #direita {
-  display: flex;
-}
-#main #personagens #aventura #direita #machado {
-  height: 450px;
-}
-#main #personagens #aventura #direita #logo-detalhe {
-  width: 150px;
-}
-
-@media screen and (min-width: 1300px) {
-  #main #introducao {
-    font-size: 1.3em;
-  }
-  #main #introducao #direita #gif {
-    width: 430px;
-    height: 250px;
-  }
-  #main #jornada {
-    display: flex;
-    align-items: center;
-    min-height: auto;
-  }
-  #main #jornada #kratosAtheus {
-    height: 500px;
-  }
-}
 @media screen and (max-width: 1100px) {
   main #detalhe-de-lancamento {
     display: none;
@@ -366,6 +197,231 @@ section {
   #main #introducao #esquerda #title {
     font-size: 3.3em;
   }
+}
+@media screen and (min-width: 1300px) {
+  #main #introducao {
+    font-size: 1.3em;
+  }
+  #main #introducao #direita #gif {
+    width: 430px;
+    height: 250px;
+  }
+  #main #jornada {
+    display: flex;
+    align-items: center;
+    min-height: auto;
+  }
+  #main #jornada #kratosAtheus {
+    height: 500px;
+  }
+}
+main #introducao {
+  font-size: 1.2em;
+  background: black url(../img/bg-hero.jpg) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  padding: 20px 5px;
+  min-height: 90.05vh;
+}
+main #introducao #esquerda {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 5px;
+  width: 67%;
+  height: 100%;
+}
+main #introducao #esquerda #title {
+  font-size: 5em;
+  padding: 10px 0px;
+}
+main #introducao #esquerda #comprar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin: 20px 0px;
+  height: 50px;
+  width: 500px;
+}
+main #introducao #esquerda #spanComprar {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
+  display: inline-block;
+  padding: 15px;
+  width: 40%;
+}
+main #introducao #esquerda #buttonComprar {
+  background-color: #3265EA;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1em;
+  border: none;
+  height: 50px;
+  width: 60%;
+}
+main #introducao #direita {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main #introducao #direita #gif {
+  background: url(../img/gif-thor.gif) center center no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  border: solid 3px blue;
+  border-radius: 4px;
+  margin: 10px 0px;
+  width: 350px;
+  height: 200px;
+}
+main #introducao #direita #gif #play {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+main #introducao #direita #faixa-etaria {
+  display: flex;
+  margin-top: 25px;
+}
+main #introducao #direita #faixa-etaria #faixa-etaria {
+  width: 37px;
+}
+main #introducao #direita #faixa-etaria #text-faixa-etaria {
+  display: inline;
+  font-size: 0.8em;
+}
+
+main #div-icones {
+  background-color: rgb(0, 0, 0);
+  color: #BDC2CB;
+  font-weight: 600;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  height: 37vh;
+}
+main #div-icones div {
+  margin: auto;
+  width: 75%;
+}
+
+#jornada {
+  font-size: 1.2em;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+#jornada .destaque {
+  justify-content: center;
+}
+#jornada .title-h2 {
+  margin: auto;
+  max-width: 900px;
+}
+#jornada #santa-Monica {
+  color: #BDC2CB;
+  display: flex;
+  gap: 10px;
+  font-size: 0.9em;
+  text-align: left;
+  margin: 50px auto 0px auto;
+  max-width: 570px;
+}
+#jornada #santa-Monica * {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+#jornada #kratosAtheus {
+  height: 600px;
+  margin: auto;
+}
+
+main #personagens {
+  background: black url(../img/bg-characters.png) center center repeat;
+  background-size: cover;
+  color: white;
+  font-size: 1.2em;
+  padding-bottom: 50px;
+}
+main #personagens #aventura {
+  display: flex;
+  padding: 20px;
+}
+main #personagens #aventura #esquerda {
+  width: 55%;
+}
+main #personagens #aventura #direita {
+  display: flex;
+}
+main #personagens #aventura #direita #machado {
+  height: 450px;
+}
+main #personagens #aventura #direita #logo-detalhe {
+  width: 150px;
+}
+main #personagens input[type=radio] {
+  display: none;
+}
+main #personagens .card {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+main #personagens .card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+main #personagens #container-slider {
+  width: 80%;
+  height: 500px;
+  max-width: 600px;
+  display: flex;
+  transform-style: preserve-3d;
+  flex-direction: column;
+  margin: auto;
+}
+main #personagens .cards {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+main #personagens #input-slider-1:checked ~ #cards #label-3,
+main #personagens #input-slider-2:checked ~ #cards #label-1,
+main #personagens #input-slider-3:checked ~ #cards #label-2 {
+  transform: translateX(-50%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+main #personagens #input-slider-1:checked ~ #cards #label-2,
+main #personagens #input-slider-2:checked ~ #cards #label-3,
+main #personagens #input-slider-3:checked ~ #cards #label-1 {
+  transform: translateX(50%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+main #personagens #input-slider-1:checked ~ #cards #label-1,
+main #personagens #input-slider-2:checked ~ #cards #label-2,
+main #personagens #input-slider-3:checked ~ #cards #label-3 {
+  transform: translateX(0) scale(1);
+  opacity: 1;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=style.css.map */

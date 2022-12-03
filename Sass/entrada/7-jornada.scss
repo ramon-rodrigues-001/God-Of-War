@@ -1,0 +1,38 @@
+#jornada {
+    font-size: 1.2em;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+
+    .destaque {
+        justify-content: center;
+    }
+
+    .title-h2 {
+        margin: auto;
+        max-width: 900px;
+    }
+
+    #santa-Monica {
+        color: #BDC2CB;
+        display: flex;
+        gap: 10px;
+        font-size: .9em;
+        text-align: left;
+        margin: 50px auto 0px auto;
+        max-width: 570px;
+
+        * {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+    }
+
+    #kratosAtheus {
+        height: 600px;
+        margin: auto;
+    }
+}
