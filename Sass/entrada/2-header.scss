@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 60px;
+    min-height: 70px;
     max-width: 1700px;
     margin: auto;
 
@@ -14,7 +14,8 @@
 
     .disponiveis {
         display: inline-block;
-        border: solid 1.1px white;
+        border: solid 1.5px white;
+        font-weight: bold;
         padding: 3px 6px;
         margin: 3px;
     }
