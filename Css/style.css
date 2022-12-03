@@ -80,6 +80,7 @@ section {
 #main #introducao #esquerda {
   display: flex;
   flex-direction: column;
+  padding: 30px;
   width: 67%;
   height: 100%;
 }
@@ -321,7 +322,7 @@ section {
   #main #introducao #esquerda #comprar {
     background-color: transparent;
     display: block;
-    margin: 20px 0px 80px 0px;
+    margin: 20px 0px 50px 0px;
     font-size: 1.1em;
     width: 100%;
   }
@@ -359,9 +360,9 @@ section {
     height: 45px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   #main #introducao #esquerda #title {
-    font-size: 3.5em;
+    font-size: 3.3em;
   }
 }
 
