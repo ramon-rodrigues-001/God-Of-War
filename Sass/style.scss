@@ -6,25 +6,17 @@
 @import "./entrada/2-header.scss";
 
 
-// MEDIAS QUERIES
-@import "./entrada/3-media-queries.scss";
-
-
-// ESTILO DO MAIN
-@import "./entrada/4-main.scss";
-
-
 // MAIN > INTRODUÇÂO
-@import "./entrada/5-introducao.scss";
+@import "./entrada/3-introducao.scss";
 
 
-// Div ICONES
-@import "./entrada/6-div-icones.scss";
+// MAIN > Div ICONES
+@import "./entrada/4-div-icones.scss";
 
 
-// JORNADA
-@import "./entrada/7-jornada.scss";
+// MAIN > JORNADA
+@import "./entrada/5-jornada.scss";
 
 
-// PERSONAGENS
-@import "./entrada/8-personagens.scss"
+// MAIN > PERSONAGENS
+@import "./entrada/6-personagens.scss"

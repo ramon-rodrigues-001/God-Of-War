@@ -7,12 +7,20 @@ main {
         grid-template-columns: repeat(3, 1fr);
         align-items: center;
         text-align: center;
-        padding: 10px;
+        padding: 20px 10px;
         height: 37vh;
 
         div {
             margin: auto;
             width: 75%;
         }
+    }
+}
+
+// ===== Menos de 550px ===== //
+@media screen and (max-width: 550px) {
+    #div-icones {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px 10px;
     }
 }

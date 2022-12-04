@@ -1,0 +1,209 @@
+main {
+    #introducao {
+        font-size: 1.2em;
+        background: black url(../img/bg-hero.jpg) center center no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        padding: 20px 5px;
+        min-height: 90.05vh;
+
+        #esquerda {
+            display: flex;
+            flex-direction: column;
+            padding: 30px 5px;
+            width: 67%;
+            height: 100%;
+
+            #title {
+                font-size: 5em;
+                padding: 10px 0px;
+            }
+
+            #comprar {
+                display: flex;
+                align-items: center;
+                background-color: white;
+                margin: 20px 0px;
+                height: 50px;
+                width: 500px;
+            }
+            #spanComprar {
+                text-align: center;
+                color: black;
+                font-weight: bold;
+                font-size: 1em;
+                display: inline-block;
+                padding: 15px;
+                width: 40%;
+            }
+            #buttonComprar {
+                background-color: #3265EA;
+                color: white;
+                cursor: pointer;
+                font-weight: bold;
+                font-size: 1em;
+                border: none;
+                height: 50px;
+                width: 60%;
+            }
+        }
+
+
+        #direita {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            #gif {
+                background: url(../img/gif-thor.gif) center center no-repeat;
+                background-size: 100% 100%;
+                position: relative;
+                border: solid 3px blue;
+                border-radius: 4px;
+                margin: 10px 0px;
+                width: 350px;
+                height: 200px;
+
+                #play {
+                    position: absolute;
+                    bottom: 20px;
+                    left: 20px;
+                }
+            }
+
+            #faixa-etaria {
+                display: flex;
+                margin-top: 25px;
+
+                #faixa-etaria {
+                    width: 37px;
+                }
+
+                #text-faixa-etaria {
+                    display: inline;
+                    font-size: .8em;
+                }
+            }   
+        }
+    }
+}
+
+
+// ===== Mais de 1300px ===== //
+@media screen and (min-width: 1300px) {
+    #main {
+        #introducao {
+            font-size: 1.3em;
+
+            #direita {
+                #gif {
+                    width: 430px;
+                    height: 250px;
+                }
+            }
+        }
+    }
+}
+
+
+// ===== Menos de 970px ===== //
+@media screen and (max-width: 970px) {
+    #main {
+        #introducao {
+            display: block;
+            text-align: center;
+            padding: 20px 10px;
+
+            #esquerda {
+                width: 100%;
+                display: block;
+                margin: auto;
+
+                .destaque {
+                    display: block;
+                    p {
+                        display: inline;
+                    }
+                }
+                #comprar {
+                    font-size: .8em;
+                    width: 400px;
+                    margin: 20px auto;
+                }
+            }
+
+            #direita {
+                text-align: center;
+                display: block;
+
+                #gif {
+                    margin: 20px auto;
+                }
+
+                #faixa-etaria {
+                    display: block;
+
+                    #text-faixa-etaria {
+                        display: block;
+                        font-size: .9em;
+                        margin: auto;
+                        width: 250px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// ===== Menos de 550px ===== //
+@media screen and (max-width: 550px) {
+    #main {
+        #introducao {
+            #esquerda {
+                #title {
+                    font-size: 4em;
+                }
+
+                #comprar {
+                    background-color: transparent;
+                    display: block;
+                    margin: 20px 0px 50px 0px;
+                    font-size: 1.1em;
+                    width: 100%;
+                }
+                #spanComprar {
+                    background-color: rgb(255, 255, 255);
+                    width: 97%;
+                }
+                #buttonComprar {
+                    width: 97%;
+                }
+            }
+
+            #direita {
+                #gif {
+                    width: 270px;
+                    height: 170px;
+                }
+            }
+        }
+    }
+}
+
+
+// ===== Menos de 450px ===== //
+@media screen and (max-width: 450px) {
+    #main {
+        #introducao {
+            #esquerda {
+                #title {
+                    font-size: 3.3em;
+                }
+            }
+        }
+    }
+}

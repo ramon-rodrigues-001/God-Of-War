@@ -1,0 +1,98 @@
+#jornada {
+    font-size: 1.2em;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+
+    .destaque {
+        justify-content: center;
+    }
+
+    .title-h2 {
+        margin: auto;
+        max-width: 900px;
+        padding: 10px;
+    }
+
+    #santa-Monica {
+        color: #BDC2CB;
+        display: flex;
+        gap: 10px;
+        font-size: .9em;
+        text-align: left;
+        margin: 50px auto 0px auto;
+        max-width: 570px;
+
+        * {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+    }
+
+    #kratosAtheus {
+        height: 600px;
+        margin: auto;
+    }
+}
+
+
+
+// ===== Mais de 1300px ===== //
+@media screen and (min-width: 1300px) {
+    #main {
+        #jornada {
+            display: flex;
+            align-items: center;
+            min-height: auto;
+
+            #kratosAtheus {
+                height: 500px;
+            }
+        }
+    }
+}
+
+
+// ===== Menos de 970px ===== //
+@media screen and (max-width: 970px) {
+    #main {
+        #jornada {
+            #kratosAtheus {
+                height: 400px;
+            }
+        }
+    }    
+}
+
+
+// ===== Menos de 550px ===== //
+@media screen and (max-width: 550px) {
+    #main {
+        #jornada {
+            padding: 50px 0px;
+            #kratosAtheus {
+                width: 100%;
+            }
+        }
+
+        #santa-Monica {
+            flex-direction: column;
+            align-items: center;
+            padding: 5px;
+
+            #monica-studio {
+                margin-top: 10px;
+                width: 150px;
+                height: 55px;
+            }
+
+            p {
+                text-align: center;
+                max-width: 400px;
+            }
+        }
+    }
+}

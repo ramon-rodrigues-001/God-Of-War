@@ -35,13 +35,26 @@ section {
   padding: 10px;
 }
 
+@media screen and (max-width: 700px) {
+  #main .title-h2 {
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 550px) {
+  #main {
+    font-size: 0.9em;
+  }
+  #main .title-h2 {
+    font-size: 1.7em;
+  }
+}
 #header {
   background-color: black;
   color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 70px;
+  min-height: 60px;
   max-width: 1700px;
   margin: auto;
 }
@@ -49,7 +62,6 @@ section {
   height: 45px;
 }
 #header .disponiveis {
-  display: inline-block;
   border: solid 1.5px white;
   font-weight: bold;
   padding: 3px 6px;
@@ -64,155 +76,6 @@ section {
 @media screen and (max-width: 700px) {
   #icon-sony {
     display: none;
-  }
-}
-@media screen and (max-width: 1100px) {
-  main #detalhe-de-lancamento {
-    display: none;
-  }
-}
-@media screen and (max-width: 970px) {
-  #main #introducao {
-    display: block;
-    text-align: center;
-    padding: 20px 10px;
-  }
-  #main #introducao #esquerda {
-    width: 100%;
-    display: block;
-    margin: auto;
-  }
-  #main #introducao #esquerda .destaque {
-    display: block;
-  }
-  #main #introducao #esquerda .destaque p {
-    display: inline;
-  }
-  #main #introducao #esquerda #comprar {
-    font-size: 0.8em;
-    width: 400px;
-    margin: 20px auto;
-  }
-  #main #introducao #direita {
-    text-align: center;
-    display: block;
-  }
-  #main #introducao #direita #gif {
-    margin: 20px auto;
-  }
-  #main #introducao #direita #faixa-etaria {
-    display: block;
-  }
-  #main #introducao #direita #faixa-etaria #text-faixa-etaria {
-    display: block;
-    font-size: 0.9em;
-    margin: auto;
-    width: 250px;
-  }
-  #main #jornada #kratosAtheus {
-    height: 400px;
-  }
-  #main #personagens {
-    padding: 30px 0px;
-    text-align: center;
-  }
-  #main #personagens #aventura {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  #main #personagens #aventura #esquerda {
-    width: 100%;
-  }
-  #main #personagens #aventura #esquerda .title-h2 {
-    min-width: 100%;
-  }
-  #main #personagens #aventura #esquerda .destaque {
-    display: block;
-    width: 100%;
-  }
-  #main #personagens #aventura #esquerda .destaque P {
-    display: inline;
-  }
-  #main #personagens #aventura #direita {
-    margin: auto;
-  }
-}
-@media screen and (max-width: 700px) {
-  #main .title-h2 {
-    font-size: 2em;
-  }
-}
-@media screen and (max-width: 550px) {
-  #main {
-    font-size: 0.9em;
-  }
-  #main #introducao #esquerda #title {
-    font-size: 4em;
-  }
-  #main #introducao #esquerda #comprar {
-    background-color: transparent;
-    display: block;
-    margin: 20px 0px 50px 0px;
-    font-size: 1.1em;
-    width: 100%;
-  }
-  #main #introducao #esquerda #spanComprar {
-    background-color: rgb(255, 255, 255);
-    width: 97%;
-  }
-  #main #introducao #esquerda #buttonComprar {
-    width: 97%;
-  }
-  #main #introducao #direita #gif {
-    width: 270px;
-    height: 170px;
-  }
-  #main #div-icones {
-    grid-template-columns: 1fr 1fr;
-  }
-  #main #jornada {
-    padding: 30px 0px;
-  }
-  #main #jornada #kratosAtheus {
-    width: 100%;
-  }
-  #main #machado {
-    width: 100%;
-  }
-  #main .title-h2 {
-    font-size: 1.7em;
-  }
-  #main #santa-Monica {
-    font-size: 0.8em;
-    padding: 5px;
-  }
-  #main #santa-Monica #monica-studio {
-    margin-top: 10px;
-    width: 150px;
-    height: 45px;
-  }
-}
-@media screen and (max-width: 450px) {
-  #main #introducao #esquerda #title {
-    font-size: 3.3em;
-  }
-}
-@media screen and (min-width: 1300px) {
-  #main #introducao {
-    font-size: 1.3em;
-  }
-  #main #introducao #direita #gif {
-    width: 430px;
-    height: 250px;
-  }
-  #main #jornada {
-    display: flex;
-    align-items: center;
-    min-height: auto;
-  }
-  #main #jornada #kratosAtheus {
-    height: 500px;
   }
 }
 main #introducao {
@@ -296,6 +159,82 @@ main #introducao #direita #faixa-etaria #text-faixa-etaria {
   font-size: 0.8em;
 }
 
+@media screen and (min-width: 1300px) {
+  #main #introducao {
+    font-size: 1.3em;
+  }
+  #main #introducao #direita #gif {
+    width: 430px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 970px) {
+  #main #introducao {
+    display: block;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  #main #introducao #esquerda {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  #main #introducao #esquerda .destaque {
+    display: block;
+  }
+  #main #introducao #esquerda .destaque p {
+    display: inline;
+  }
+  #main #introducao #esquerda #comprar {
+    font-size: 0.8em;
+    width: 400px;
+    margin: 20px auto;
+  }
+  #main #introducao #direita {
+    text-align: center;
+    display: block;
+  }
+  #main #introducao #direita #gif {
+    margin: 20px auto;
+  }
+  #main #introducao #direita #faixa-etaria {
+    display: block;
+  }
+  #main #introducao #direita #faixa-etaria #text-faixa-etaria {
+    display: block;
+    font-size: 0.9em;
+    margin: auto;
+    width: 250px;
+  }
+}
+@media screen and (max-width: 550px) {
+  #main #introducao #esquerda #title {
+    font-size: 4em;
+  }
+  #main #introducao #esquerda #comprar {
+    background-color: transparent;
+    display: block;
+    margin: 20px 0px 50px 0px;
+    font-size: 1.1em;
+    width: 100%;
+  }
+  #main #introducao #esquerda #spanComprar {
+    background-color: rgb(255, 255, 255);
+    width: 97%;
+  }
+  #main #introducao #esquerda #buttonComprar {
+    width: 97%;
+  }
+  #main #introducao #direita #gif {
+    width: 270px;
+    height: 170px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #main #introducao #esquerda #title {
+    font-size: 3.3em;
+  }
+}
 main #div-icones {
   background-color: rgb(0, 0, 0);
   color: #BDC2CB;
@@ -304,7 +243,7 @@ main #div-icones {
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   text-align: center;
-  padding: 10px;
+  padding: 20px 10px;
   height: 37vh;
 }
 main #div-icones div {
@@ -312,6 +251,12 @@ main #div-icones div {
   width: 75%;
 }
 
+@media screen and (max-width: 550px) {
+  #div-icones {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 10px;
+  }
+}
 #jornada {
   font-size: 1.2em;
   background-color: rgb(0, 0, 0);
@@ -326,6 +271,7 @@ main #div-icones div {
 #jornada .title-h2 {
   margin: auto;
   max-width: 900px;
+  padding: 10px;
 }
 #jornada #santa-Monica {
   color: #BDC2CB;
@@ -346,6 +292,43 @@ main #div-icones div {
   margin: auto;
 }
 
+@media screen and (min-width: 1300px) {
+  #main #jornada {
+    display: flex;
+    align-items: center;
+    min-height: auto;
+  }
+  #main #jornada #kratosAtheus {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 970px) {
+  #main #jornada #kratosAtheus {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 550px) {
+  #main #jornada {
+    padding: 50px 0px;
+  }
+  #main #jornada #kratosAtheus {
+    width: 100%;
+  }
+  #main #santa-Monica {
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+  }
+  #main #santa-Monica #monica-studio {
+    margin-top: 10px;
+    width: 150px;
+    height: 55px;
+  }
+  #main #santa-Monica p {
+    text-align: center;
+    max-width: 400px;
+  }
+}
 main #personagens {
   background: black url(../img/bg-characters.png) center center repeat;
   background-size: cover;
@@ -362,12 +345,15 @@ main #personagens #aventura #esquerda {
 }
 main #personagens #aventura #direita {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 main #personagens #aventura #direita #machado {
   height: 450px;
 }
 main #personagens #aventura #direita #logo-detalhe {
-  width: 150px;
+  display: flex;
 }
 main #personagens input[type=radio] {
   display: none;
@@ -422,6 +408,42 @@ main #personagens #input-slider-3:checked ~ #cards #label-3 {
   transform: translateX(0) scale(1);
   opacity: 1;
   z-index: 1;
+}
+
+@media screen and (max-width: 1100px) {
+  #main #detalhe-de-lancamento {
+    display: none;
+  }
+}
+@media screen and (max-width: 970px) {
+  #main #personagens {
+    padding: 30px 0px;
+    text-align: center;
+  }
+  #main #personagens #aventura {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #main #personagens #aventura #esquerda {
+    width: 100%;
+  }
+  #main #personagens #aventura #esquerda .title-h2 {
+    min-width: 100%;
+  }
+  #main #personagens #aventura #esquerda .destaque {
+    display: block;
+    width: 100%;
+  }
+  #main #personagens #aventura #esquerda .destaque P {
+    display: inline;
+  }
+  #main #personagens #aventura #direita {
+    margin: auto;
+  }
+  #main #personagens #aventura #machado {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

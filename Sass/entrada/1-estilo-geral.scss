@@ -41,3 +41,29 @@ section {
     line-height: 1.5em;
     padding: 10px;
 }
+
+
+
+// MEDIAS QUERIES DE GERAL
+
+
+// ===== Menos de 700px ===== //
+@media screen and (max-width: 700px) {
+    #main {
+        .title-h2 {
+            font-size: 2em;
+        }
+    } 
+}
+
+
+// ===== Menos de 550px ===== //
+@media screen and (max-width: 550px) {
+    #main {
+        font-size: .9em;
+
+        .title-h2 {
+            font-size: 1.7em;
+        }
+    }
+}
