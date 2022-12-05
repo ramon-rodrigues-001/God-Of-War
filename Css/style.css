@@ -86,7 +86,7 @@ main #introducao {
   color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
-  padding: 20px 5px;
+  padding: 20px 15px;
   min-height: 90.05vh;
 }
 main #introducao #esquerda {
@@ -139,6 +139,7 @@ main #introducao #direita #gif {
   border: solid 3px blue;
   border-radius: 4px;
   margin: 10px 0px;
+  cursor: pointer;
   width: 350px;
   height: 200px;
 }
@@ -443,6 +444,53 @@ main #personagens #input-slider-3:checked ~ #cards #label-3 {
   }
   #main #personagens #aventura #machado {
     width: 100%;
+  }
+}
+#trailerYoutuber {
+  border: solid 3px rgb(255, 0, 0);
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  width: 70%;
+  height: 70%;
+  display: none;
+}
+#trailerYoutuber p#aviso {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translateX(-40%);
+  display: none;
+}
+
+@media screen and (max-width: 770px) {
+  #trailerYoutuber {
+    width: 80%;
+    height: 65%;
+  }
+  #trailerYoutuber p#aviso {
+    font-size: 1.3em;
+  }
+}
+@media screen and (max-width: 615px) {
+  #trailerYoutuber {
+    width: 80%;
+    height: 55%;
+  }
+  #trailerYoutuber p#aviso {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 530px) {
+  #trailerYoutuber {
+    width: 70%;
+    height: 40%;
   }
 }
 

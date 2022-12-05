@@ -7,7 +7,7 @@ main {
         color: rgb(255, 255, 255);
         display: flex;
         align-items: center;
-        padding: 20px 5px;
+        padding: 20px 15px;
         min-height: 90.05vh;
 
         #esquerda {
@@ -64,6 +64,7 @@ main {
                 border: solid 3px blue;
                 border-radius: 4px;
                 margin: 10px 0px;
+                cursor: pointer;
                 width: 350px;
                 height: 200px;
 

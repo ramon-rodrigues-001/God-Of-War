@@ -1,0 +1,59 @@
+
+#trailerYoutuber {
+    border: solid 3px rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    width: 70%;
+    height: 70%;
+
+
+    display:  none; 
+    
+    p#aviso {
+        font-size: 2em;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: 13%;
+        left: 50%;
+        transform: translateX(-40%);
+    
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 770px) {
+    #trailerYoutuber {
+        width: 80%;
+        height: 65%;
+
+        p#aviso {
+            font-size: 1.3em;
+        }
+    }
+}
+
+
+@media screen and (max-width: 615px) {
+    #trailerYoutuber {
+        width: 80%;
+        height: 55%;
+
+        p#aviso {
+            font-size: 1em;
+        }
+    }
+}
+
+
+@media screen and (max-width: 530px) {
+    #trailerYoutuber {
+        width: 70%;
+        height: 40%;
+    }
+}
