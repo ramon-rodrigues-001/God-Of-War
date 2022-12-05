@@ -447,7 +447,7 @@ main #personagens #input-slider-3:checked ~ #cards #label-3 {
   }
 }
 #trailerYoutuber {
-  border: solid 3px rgb(255, 0, 0);
+  border: solid 3px rgb(0, 0, 255);
   background-color: rgb(0, 0, 0);
   position: fixed;
   top: 50%;
@@ -469,19 +469,18 @@ main #personagens #input-slider-3:checked ~ #cards #label-3 {
   display: none;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 840px) {
   #trailerYoutuber {
-    width: 80%;
-    height: 65%;
+    width: 95%;
+    height: 400px;
   }
   #trailerYoutuber p#aviso {
     font-size: 1.3em;
   }
 }
-@media screen and (max-width: 615px) {
+@media screen and (max-width: 620px) {
   #trailerYoutuber {
-    width: 80%;
-    height: 55%;
+    height: 300px;
   }
   #trailerYoutuber p#aviso {
     font-size: 1em;
@@ -489,8 +488,15 @@ main #personagens #input-slider-3:checked ~ #cards #label-3 {
 }
 @media screen and (max-width: 530px) {
   #trailerYoutuber {
-    width: 70%;
-    height: 40%;
+    height: 250px;
+  }
+  #trailerYoutuber p#aviso {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 430px) {
+  #trailerYoutuber {
+    height: 200px;
   }
 }
 
