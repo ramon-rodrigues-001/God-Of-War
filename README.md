@@ -1,5 +1,7 @@
 # God-Of-War
 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=100&section=header"/>
+
 <h3>Oi!, Tudo bem?. <br>
 Este projeto foi apresentado no curso <a href="https://codeboost.com.br/" target="_blank">Codeboost</a>, Eu não fiz este curso porem achei intere a ideia criar um site com tema do jogo God Of War Ragnarok, 
 Utilizei como base o projeto de uma aluna <a href="https://www.linkedin.com/in/rauanee/" target="_blank">Rauane Lima</a></h3>
@@ -20,3 +22,6 @@ Utilizei como base o projeto de uma aluna <a href="https://www.linkedin.com/in/r
   <h3>Deploy</h3>
   <li><a href="https://ramon-rodrigues-001.github.io/God-Of-War/" target="_blank">Ver site Hospedado</a></li>
 </ul>
+
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=100&section=footer"/>
